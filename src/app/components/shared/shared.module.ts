@@ -8,6 +8,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [],
@@ -18,7 +19,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatSidenavModule,
     MatToolbarModule,
     MatMenuModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   exports: [
     CommonModule,
@@ -27,7 +29,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatSidenavModule,
     MatToolbarModule,
     MatMenuModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   providers: []
 })
